@@ -25,6 +25,7 @@ There is no containerizations because time not enough in order to do that. So yo
 1. Python version 3
 2. Pip version 3
 3. Chromedriver (https://chromedriver.storage.googleapis.com/index.html)
+4. Unix Environment
 
 ## How to run locally
 1. ```make dependency```
