@@ -10,7 +10,7 @@ print('name, desc, detail, price, image, store, rating')
 scrapper = Bot()
 
 page_num = 0
-while len(scrapper.list_products) < 100:
+while len(scrapper.list_products) < int(os.environ.get('AMOUNT_DATA')):
     page_num = page_num + 1
 
     # get initial data (list products)
